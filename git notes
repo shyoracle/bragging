@@ -1,0 +1,12 @@
+# GIT related issues
+
+1. How to configure GIT with proxy?
+
+git config --global http.proxy <your http proxy url>
+
+More detailed guide: https://gist.github.com/evantoli/f8c23a37eb3558ab8765
+
+2. GIT clone report error on Oracle/Redhat/Centos linux 7: Peer reports incompatible or unsupported protocol version
+
+sudo yum update curl nss
+
